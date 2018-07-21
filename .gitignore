@@ -1,4 +1,17 @@
-*.DS_Store
-node_modules/
-.idea/
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Coverage directory
+coverage
+
+# Dependency directory
+node_modules
+
+# Release
 dist/
+
+*.DS_Store
+.idea/
+
