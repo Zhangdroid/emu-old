@@ -1,4 +1,6 @@
 module.exports = {
+  coverageDirectory: "./coverage/",
+  collectCoverage: true,
   setupTestFrameworkScriptFile: "./configs/jest/setupTests.ts",
   moduleDirectories: ["node_modules", "src"],
   testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
