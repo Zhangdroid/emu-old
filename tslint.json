@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-react",
+    "tslint-eslint-rules",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "no-implicit-dependencies": false,
+    "no-submodule-imports": false,
+    "no-shadowed-variable": false,
+    "member-access": [true, "no-public"],
+    "jsx-no-lambda": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false
+  }
+}
