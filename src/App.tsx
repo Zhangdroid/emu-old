@@ -1,6 +1,17 @@
 import React from "react";
+import { Provider } from "react-redux";
 import { hot } from "react-hot-loader";
 
-const App = () => <div>Hello, world</div>;
+import store from "store";
 
-export default hot(module)(App);
+const Component = () => <div>Hello, world</div>;
+
+const HotComponent = hot(module)(Component);
+
+const App = () => (
+  <Provider store={store}>
+    <HotComponent />
+  </Provider>
+);
+
+export default App;
