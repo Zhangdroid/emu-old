@@ -1,14 +1,18 @@
-import { createStore, applyMiddleware } from "redux";
-import { logger } from "redux-logger";
-import { composeWithDevTools } from "redux-devtools-extension";
+import { createStore, applyMiddleware, compose } from "redux";
 
 import reducers from "./reducers";
 
 const middleware = [];
-const composeEnhancers = composeWithDevTools;
+let composeEnhancers = compose;
 
 if (process.env.NODE_ENV === "development") {
+  // tslint:disable-next-line no-var-requires
+  const { logger } = require("redux-logger");
   middleware.push(logger);
+
+  // tslint:disable-next-line no-var-requires
+  const { composeWithDevTools } = require("redux-devtools-extension");
+  composeEnhancers = composeWithDevTools;
 }
 
 const store = createStore(
