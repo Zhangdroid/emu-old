@@ -12,6 +12,7 @@
     "member-access": [true, "no-public"],
     "jsx-no-lambda": false,
     "ordered-imports": false,
-    "object-literal-sort-keys": false
+    "object-literal-sort-keys": false,
+    "interface-name": false
   }
 }
