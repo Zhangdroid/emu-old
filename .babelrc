@@ -5,6 +5,7 @@
     "@babel/react"
   ],
   "plugins": [
+    "@babel/proposal-class-properties",
     "react-hot-loader/babel"
   ]
 }
