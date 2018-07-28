@@ -8,7 +8,7 @@ export enum ActionTypes {
   SET_SELECTED_SLIDE = "@slide/SET_SELECTED"
 }
 
-export const actions = {
+const actions = {
   addSlide: (payload: { slide: Slide | Slide[]; index?: number }) =>
     createAction(ActionTypes.ADD_SLIDE, payload),
   deleteSlide: (payload: { slide: Slide | Slide[] }) =>
@@ -20,3 +20,4 @@ export const actions = {
 };
 
 export type Actions = ActionUnion<typeof actions>;
+export default actions;
