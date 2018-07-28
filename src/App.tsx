@@ -4,6 +4,8 @@ import { hot } from "react-hot-loader";
 
 import store from "store";
 
+import "styles/global";
+
 const Component = () => <div>Hello, world</div>;
 
 const HotComponent = hot(module)(Component);
