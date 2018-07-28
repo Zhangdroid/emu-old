@@ -222,7 +222,7 @@
     "@babel/helper-remap-async-to-generator" "7.0.0-beta.54"
     "@babel/plugin-syntax-async-generators" "7.0.0-beta.54"
 
-"@babel/plugin-proposal-class-properties@^7.0.0-beta.54":
+"@babel/plugin-proposal-class-properties@7.0.0-beta.54":
   version "7.0.0-beta.54"
   resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-class-properties/-/plugin-proposal-class-properties-7.0.0-beta.54.tgz#5953f0499c1e69e732d33a550bce8799aa6b76f3"
   dependencies:
@@ -851,7 +851,7 @@
   dependencies:
     source-map "^0.6.1"
 
-"@types/uuid@^3.4.3":
+"@types/uuid@3.4.3":
   version "3.4.3"
   resolved "https://registry.yarnpkg.com/@types/uuid/-/uuid-3.4.3.tgz#121ace265f5569ce40f4f6d0ff78a338c732a754"
   dependencies:
@@ -7479,7 +7479,7 @@ utila@~0.4:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/utila/-/utila-0.4.0.tgz#8a16a05d445657a3aea5eecc5b12a4fa5379772c"
 
-uuid@^3.1.0, uuid@^3.3.2:
+uuid@3.3.2, uuid@^3.1.0:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
 
