@@ -53,7 +53,7 @@
     "jest": "23.4.2",
     "jest-enzyme": "6.0.2",
     "jest-styled-components": "5.0.1",
-    "prettier": "1.13.7",
+    "prettier": "1.14.0",
     "pretty-quick": "1.6.0",
     "redux-devtools-extension": "2.13.5",
     "redux-logger": "3.0.6",
