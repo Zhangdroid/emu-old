@@ -15,7 +15,7 @@
     "@types/react-redux": "6.0.9",
     "@types/uuid": "3.4.4",
     "immer": "1.5.0",
-    "polished": "2.0.3",
+    "polished": "2.1.0",
     "react": "16.4.2",
     "react-dom": "16.4.2",
     "react-hot-loader": "4.3.11",
