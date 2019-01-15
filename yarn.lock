@@ -5947,14 +5947,6 @@ postcss@^5.2.16:
     source-map "^0.5.6"
     supports-color "^3.2.3"
 
-postcss@^6.0.14:
-  version "6.0.23"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-6.0.23.tgz#61c82cc328ac60e677645f979054eb98bc0e3324"
-  dependencies:
-    chalk "^2.4.1"
-    source-map "^0.6.1"
-    supports-color "^5.4.0"
-
 postcss@^7.0.0, postcss@^7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.1.tgz#db20ca4fc90aa56809674eea75864148c66b67fa"
@@ -7054,13 +7046,13 @@ stylelint-config-styled-components@0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/stylelint-config-styled-components/-/stylelint-config-styled-components-0.1.1.tgz#b408388d7c687833ab4be4c4e6522d97d2827ede"
 
-stylelint-processor-styled-components@1.5.0:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/stylelint-processor-styled-components/-/stylelint-processor-styled-components-1.5.0.tgz#bf17ab1a263621015f2cab302f0e6cb174e6bd2a"
+stylelint-processor-styled-components@1.5.2:
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/stylelint-processor-styled-components/-/stylelint-processor-styled-components-1.5.2.tgz#875e21baa2dd0a0c0d5de082430e47c45c7d14ce"
   dependencies:
     "@babel/parser" "^7.0.0"
     "@babel/traverse" "^7.0.0"
-    postcss "^6.0.14"
+    postcss "^7.0.0"
 
 stylelint@9.6.0:
   version "9.6.0"
