@@ -815,9 +815,9 @@
     "@types/express-serve-static-core" "*"
     "@types/serve-static" "*"
 
-"@types/friendly-errors-webpack-plugin@0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@types/friendly-errors-webpack-plugin/-/friendly-errors-webpack-plugin-0.1.1.tgz#b56dd545d235823e000c3cba67f4f624f46173d1"
+"@types/friendly-errors-webpack-plugin@0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@types/friendly-errors-webpack-plugin/-/friendly-errors-webpack-plugin-0.1.2.tgz#acb0dcb46bd49e3209a004048c7d4383488d391c"
   dependencies:
     "@types/webpack" "*"
 
