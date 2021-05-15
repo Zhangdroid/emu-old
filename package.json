@@ -55,7 +55,7 @@
     "jest-styled-components": "6.2.1",
     "prettier": "1.14.3",
     "pretty-quick": "1.7.0",
-    "redux-devtools-extension": "2.13.5",
+    "redux-devtools-extension": "2.13.9",
     "redux-logger": "3.0.6",
     "stylelint": "9.6.0",
     "stylelint-config-recommended": "2.1.0",
